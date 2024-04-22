@@ -54,19 +54,19 @@ int main(){
         }
 
     	case 4:
-    		copyfile();
-    		break;
+    	    copyfile();
+    	    break;
 
     	case 5:
-			searchpattern();
-			break;
+	    searchpattern();
+	    break;
 
-		case 6:
-			printf("= = exiting = =");
-			break;
+	case 6:
+	    printf("= = exiting = =");
+	    break;
 
-		default:
-			printf("enter valid number\n");		
+	default:
+	    printf("enter valid number\n");		
 	}
 	return 0;
 	
